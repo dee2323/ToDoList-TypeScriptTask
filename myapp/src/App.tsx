@@ -3,9 +3,9 @@ import './App.css'
 
 import ToDoList from './components/ToDoList';
 import TaskContextProvider from './context/tasksContext';
-function App() {
+const App:React.FC=()=> {
   return (
-  <TaskContextProvider>
+  <TaskContextProvider >
     <ToDoList />
   </TaskContextProvider>
   )
